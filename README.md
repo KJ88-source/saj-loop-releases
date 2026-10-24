@@ -10,7 +10,7 @@ Product: [sajloop.com](https://sajloop.com)
 ```bash
 # minisign public key is in this repo: sajloop-minisign.pub
 minisign -Vm saj-loop_0.5.0_amd64.deb -p sajloop-minisign.pub
-sha256sum -c SHA256SUMS
+sha256sum -c --ignore-missing SHA256SUMS   # only the files you downloaded
 ```
 
 ## v0.5.0
